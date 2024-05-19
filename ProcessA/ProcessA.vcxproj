@@ -134,6 +134,7 @@
     <ClInclude Include="MainForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="MainForm.resx">
@@ -142,6 +143,9 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="tom.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ProcessA.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
