@@ -70,7 +70,7 @@ namespace ProcessA {
 			this->txbPath->BorderStyle = System::Windows::Forms::BorderStyle::FixedSingle;
 			this->txbPath->Location = System::Drawing::Point(12, 12);
 			this->txbPath->Name = L"txbPath";
-			this->txbPath->Size = System::Drawing::Size(377, 25);
+			this->txbPath->Size = System::Drawing::Size(377, 22);
 			this->txbPath->TabIndex = 0;
 			// 
 			// btnBrowse
@@ -87,7 +87,7 @@ namespace ProcessA {
 			// 
 			this->btnSend->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 10.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->btnSend->Location = System::Drawing::Point(201, 156);
+			this->btnSend->Location = System::Drawing::Point(199, 183);
 			this->btnSend->Name = L"btnSend";
 			this->btnSend->Size = System::Drawing::Size(75, 30);
 			this->btnSend->TabIndex = 2;
@@ -107,6 +107,7 @@ namespace ProcessA {
 			this->Name = L"MainForm";
 			this->Text = L"ProcessA";
 			this->ResumeLayout(false);
+			this->PerformLayout();
 
 		}
 #pragma endregion
